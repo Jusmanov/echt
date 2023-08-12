@@ -1,0 +1,210 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+	overflow-x:hidden;
+	font-family:"Inter", sans-serif;
+	color:#EDEAE0;
+	margin:0;
+}
+
+body a{
+	color:#EDEAE0;
+	text-decoration:none;
+}
+
+.logo{
+	position:relative;
+	padding:0px 30px;
+	color:#cdd5e5;
+	font-family: "Orbitron", sans-serif;
+	font-weight:400;
+	font-size:42px;
+}
+
+.logo:hover{
+	cursor:pointer;
+	color:#ffffff;
+	transition:filter 0.4s ease-in-out, color 0.4s ease-in-out;
+	filter: drop-shadow(0px 0px 10px #ffffff);
+}
+
+nav{
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	justify-content:center;
+	height:75px;
+	background-color:none;
+	background:none;
+	margin:0;
+	width:100%;
+}
+
+
+.menu{
+	position:relative;
+	font-weight:lighter;
+	height:100%;
+	align-items:center;
+	display:flex;
+	padding:0px 50px;
+}
+
+
+/* Basic styling for the dropdown menu */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown a{
+	padding:15px 15px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	text-decoration:none;
+	height:100%;
+	margin:0;
+}
+
+.dropdown a:hover{
+	cursor:pointer;
+	color:#ffffff;
+	filter: drop-shadow(0px 0px 1px #ffffff);
+	transition:color 0.4s ease-in-out;
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+	background:none;
+	border-radius:5px;
+  z-index: 1;
+	border:1px solid;
+	border-color:#EDEAE0;
+	margin:none;
+	padding:0;
+	width:300px;
+}
+
+/* Show the dropdown content on hover */
+.dropdown:hover .dropdown-content {
+  display: flex;
+	justify-content:flex-start;
+	flex-direction:column;
+	height:auto;
+}
+
+/* Style the links within the dropdown */
+.dropdown-content a {
+	width:270px;
+	color:#EDEAE0;
+	display:flex;
+	flex-direction:row;
+	align-items:baseline;
+	justify-content:flex-start;
+  text-decoration: none;
+	text-align:left;
+}
+
+.dropdown-content a:hover {
+	color:#141414;
+	background-color:#EDEAE0;
+	cursor:pointer;
+}
+.top{
+	height:200vh;
+	width:100%;
+	background-image:url("https://www.hdwallpapers.in/download/dark_planet_5k-HD.jpg");
+	background-size:cover;
+}
+
+.hero .hero-text{
+	height:700px;
+	width:100%;
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	justify-content:left;
+	margin-left:150px;
+}
+
+.hero-text .hero-divider{
+	background-color:#FAFAFA;
+	width:2px;
+	margin-left:100px;
+	margin-right:100px;
+	height:100px;
+}
+
+.hero span{
+	color:#ffffff;
+	display:flex;
+	font-size:58px;
+	font-family:"Inter", sans-serif;
+	font-weight:500;
+	width:680px;
+	text-wrap:wrap;
+	height:700px;
+	align-items:center;
+}
+
+.hero-text h2{
+	font-weight:400;
+}
+
+.featured{
+	position:relative;
+	width:100%;
+	height:50vh;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	flex-direction:column;
+}
+
+.featured .container{
+	display:flex;
+	flex-direction:column;
+	width:90%;
+	height:200px;
+	background: rgba( 89, 89, 89, 0 );
+	backdrop-filter: blur( 2px );
+	-webkit-backdrop-filter: blur( 2px );
+	border:1px solid;
+	border-color:#EDEAE0;
+	border-radius:10px;
+}
+
+.featured .container .container-text{
+	padding:30px 30px;
+}
+
+#upper{
+	font-size:32px;
+	margin:0;
+	font-weight:600;
+	color:#dad8cd;
+}
+
+#lower{
+	font-size:36px;
+	font-weight:600;
+	margin-top:0;
+	margin-bottom:0;
+}
+
+.container-text p{
+	font-size:20px;
+}
+.featured a{
+	position:relative;
+	width:100%;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	padding:10px 0px;
+}
